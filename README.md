@@ -22,8 +22,8 @@
 - [News and Website](#news-and-website)
 - [Governance](#governance)
 - [Adopters](#adopters)
-- [License](#license)
 - [Architecture Documentation](#architecture-documentation)
+- [License](#license)
 
 ---
 
