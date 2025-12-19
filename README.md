@@ -23,6 +23,7 @@
 - [Governance](#governance)
 - [Adopters](#adopters)
 - [License](#license)
+- [Architecture Documentation](#architecture-documentation)
 
 ---
 
@@ -114,6 +115,19 @@ Explore the [Adopters Page](https://www.jenkins.io/project/adopters/) and https:
 - How Jenkins is used in different industries
 
 > If your company uses Jenkins and you'd like to be featured, feel free to [submit your story](https://www.jenkins.io/project/adopters/contributing/#share-your-story)!
+
+# Architecture Documentation
+
+## Pipeline Implementation
+
+This repository contains the Jenkins core, which provides the foundational infrastructure and APIs. 
+**Pipeline functionality is implemented as separate plugins**, not in this core repository.
+
+For detailed information about where Pipeline is implemented and how it integrates with Jenkins core, see:
+- [Pipeline Architecture Documentation](docs/PIPELINE_ARCHITECTURE.md)
+
+For more architecture documentation:
+- [Maintainers Guidelines](docs/MAINTAINERS.adoc)
 
 # License
 
