@@ -120,13 +120,15 @@ Explore the [Adopters Page](https://www.jenkins.io/project/adopters/) and https:
 
 ## Pipeline Implementation
 
-This repository contains the Jenkins core, which provides the foundational infrastructure and APIs. 
+This repository contains the Jenkins core, which provides the foundational infrastructure and APIs.
 **Pipeline functionality is implemented as separate plugins**, not in this core repository.
 
 For detailed information about where Pipeline is implemented and how it integrates with Jenkins core, see:
+
 - [Pipeline Architecture Documentation](docs/PIPELINE_ARCHITECTURE.md)
 
 For more architecture documentation:
+
 - [Maintainers Guidelines](docs/MAINTAINERS.adoc)
 
 # License
