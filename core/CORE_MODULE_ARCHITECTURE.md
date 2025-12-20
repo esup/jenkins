@@ -465,7 +465,7 @@ if (item.hasPermission(Item.CONFIGURE)) {
 ### 2. 技术栈
 
 #### 核心依赖
-- **Java 17+**: 主要编程语言（最新版本要求）
+- **Java 17 或 21**: 主要编程语言（支持 Eclipse Temurin 或 OpenJDK）
 - **Stapler**: Web 框架（Object-URL 映射）
 - **Jelly**: 视图模板引擎
 - **XStream**: XML 序列化
