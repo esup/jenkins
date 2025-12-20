@@ -18,7 +18,7 @@ Jenkins Core 模块是 Jenkins 自动化服务器的核心组件，包含了系�
 ### 基本信息
 - **模块名称**: `jenkins-core`
 - **Group ID**: `org.jenkins-ci.main`
-- **当前版本**: 2.543-SNAPSHOT
+- **当前版本**: 2.x（参见 pom.xml）
 - **许可证**: MIT License
 - **主要语言**: Java
 - **构建工具**: Maven
@@ -99,7 +99,7 @@ ModelObject (接口)
   └── Item (接口)
       ├── TopLevelItem (接口)
       │   ├── AbstractProject
-      │   │   ├── Project (Deprecated)
+      │   │   ├── Project (已弃用)
       │   │   └── FreeStyleProject
       │   └── AbstractTopLevelItem
       └── ItemGroup (接口)
@@ -110,7 +110,7 @@ ModelObject (接口)
 Actionable (抽象类)
   └── Run (抽象类)
       ├── AbstractBuild
-      │   ├── Build (Deprecated)
+      │   ├── Build (已弃用)
       │   └── FreeStyleBuild
       └── 其他构建类型
 ```
@@ -474,7 +474,7 @@ if (item.hasPermission(Item.CONFIGURE)) {
 - **Winstone/Jetty**: 嵌入式 Servlet 容器
 
 #### 前端技术
-- **YUI (deprecated)**: 传统 JavaScript 框架
+- **YUI**（已弃用）: 传统 JavaScript 框架
 - **jQuery**: DOM 操作和 Ajax
 - **Prototype.js**: 部分遗留代码
 - **现代化改造**: 逐步迁移到现代前端技术
