@@ -18,7 +18,6 @@ Jenkins Core 模块是 Jenkins 自动化服务器的核心组件，包含了系�
 ### 基本信息
 - **模块名称**: `jenkins-core`
 - **Group ID**: `org.jenkins-ci.main`
-- **当前版本**: 2.x（参见 pom.xml）
 - **许可证**: MIT License
 - **主要语言**: Java
 - **构建工具**: Maven
